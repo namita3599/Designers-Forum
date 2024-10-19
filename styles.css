@@ -59,14 +59,14 @@ nav ul li a:hover {
     justify-content: center;
     text-align: center;
     padding: 20px;
-    background-attachment: fixed; /* Fix the background image for parallax effect */
-    background-size: cover; /* Ensure the image covers the section */
+    background-attachment: fixed; /* parallax effect */
+    background-size: cover; 
 }
 
 .hero-section h2, .hero-section p, .btn {
     position: relative;
-    z-index: 2; /* Ensure the text is above the background overlay */
-    text-shadow: 20px 20px 40px rgba(0, 0, 0, 0.9); /* Optional: add text shadow for readability */
+    z-index: 2; 
+    text-shadow: 20px 20px 40px rgba(0, 0, 0, 0.9);
 }
 
 .hero-section h2 {
@@ -94,23 +94,23 @@ nav ul li a:hover {
 
 /* About Section Styles */
 .about-container {
-    max-width: 1200px; /* Limit the maximum width for better readability */
-    margin: 0 auto; /* Center the container */
+    max-width: 1200px;
+    margin: 0 auto;
     margin-top: 40px;
-    padding: 20px; /* Add padding inside the container */
-    background-color: #640303; /* Maroon background */
-    color: white; /* White text color */
-    text-align: left; /* Left-align text */
+    padding: 20px; 
+    background-color: #640303; 
+    color: white; 
+    text-align: left; 
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
 }
 
 .about-container p {
-    margin-bottom: 15px; /* Space between paragraphs */
-    line-height: 1.8; /* Improve line spacing for readability */
+    margin-bottom: 15px; 
+    line-height: 1.8;
 }
 
 .about-container p:last-child {
-    margin-bottom: 0; /* No extra space after the last paragraph */
+    margin-bottom: 0;
 }
 
 /* Services Section Styles */
@@ -148,13 +148,13 @@ nav ul li a:hover {
 /* Projects Section Styles */
 #projects {
 
-    max-width: 1200px; /* Example max-width to keep it centered and not too wide */
-    margin: 0 auto; /* Center the section */
+    max-width: 1200px;
+    margin: 0 auto; 
     
     padding: 50px 0;
     background: #fff;
     text-align: center;
-    margin-top: 20px; /* Adding margin for spacing */
+    margin-top: 20px; 
 }
 
 .projects-gallery {
@@ -166,7 +166,7 @@ nav ul li a:hover {
 
 .projects-gallery img ,
 .hidden-images img{
-    width: 100%; /* Responsive images */
+    width: 100%;
     height: auto; /* Maintain aspect ratio */
 }
 
@@ -182,8 +182,7 @@ nav ul li a:hover {
 
     width: 100%;
     height: auto;
-    cursor: pointer; /* Indicates that the images are clickable */
-    
+    cursor: pointer;   
     transition: transform 0.3s;
 }
 
@@ -193,22 +192,22 @@ nav ul li a:hover {
 
 #loadMore, 
 #viewLess {
-    display: inline-block; /* Ensure it's an inline-block */
-    padding: 10px 20px; /* Add some padding for a comfortable click area */
-    margin-top: 20px; /* Space above the button */
-    background-color: #640303; /* Maroon background */
-    color: white; /* White text color */
-    border: none; /* Remove default border */
-    border-radius: 5px; /* Rounded corners */
-    font-size: 16px; /* Font size */
-    cursor: pointer; /* Change cursor to pointer on hover */
-    transition: transform 0.3s, background-color 0.3s; /* Smooth hover effects */
+    display: inline-block; 
+    padding: 10px 20px; 
+    margin-top: 20px; 
+    background-color: 
+    color: white; 
+    border: none; 
+    border-radius: 5px;
+    font-size: 16px; 
+    cursor: pointer; 
+    transition: transform 0.3s, background-color 0.3s; 
 }
 
 #loadMore:hover,
 #viewLess:hover {
-    transform: scale(1.05); /* Slight zoom-in on hover */
-    background-color: #7c0c0c; /* Darker maroon on hover for feedback */
+    transform: scale(1.05);
+    background-color: #7c0c0c; 
 }
 
 
@@ -224,8 +223,8 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    max-width: 1200px; /* Limit width for better layout */
-    margin: 0 auto; /* Center the container */
+    max-width: 1200px; 
+    margin: 0 auto;
 }
 
 .review {
@@ -242,18 +241,18 @@ nav ul li a:hover {
 
 /* Hover effect for review cards */
 .review:hover {
-    transform: translateY(-5px); /* Lift the card on hover */
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5); /* Darker shadow on hover */
+    transform: translateY(-5px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.5); 
 }
 
 .review blockquote {
-    font-style: italic; /* Italicize the quote for emphasis */
-    margin-bottom: 10px; /* Spacing below the quote */
+    font-style: italic; 
+    margin-bottom: 10px;
 }
 
 .review p {
-    font-weight: bold; /* Make the name bold */
-    margin-top: 0; /* Remove top margin */
+    font-weight: bold;
+    margin-top: 0;
     text-align:right;
 }
 
@@ -275,13 +274,13 @@ nav ul li a:hover {
 
 
 .contact-icon, .social-icon {
-    width: 45px; /* Default size */
+    width: 45px; 
     margin:18px;
-    transition: transform 0.3s ease; /* Smooth animation */
+    transition: transform 0.3s ease; 
 }
 
 .social-icon:hover, .social-icon:hover {
-    transform: scale(1.5); /* Enlarge the icon by 1.5x on hover */
+    transform: scale(1.5); 
 }
 
 
